@@ -1,14 +1,36 @@
+* {
+    text-align: center;
+}
+
 #clock {
 }
 
 #clock img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
 
-#hour {
+#face {
+    position: relative;
+}
+
+.hand {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+ #hour {
+    transform: rotate(6deg);
 }
 
 #minute {
+    transform: rotate(6deg);
 }
 
 #second {
+    transform: rotate(6deg);
+
 }
